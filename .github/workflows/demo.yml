@@ -39,6 +39,6 @@ jobs:
         with:
           name: dist-files
       - name: Display structure of downloaded files
-          run: ls
+        run: ls -R
       - name: Deploy
         run: echo "Deploying..."
